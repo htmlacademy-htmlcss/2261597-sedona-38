@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Anastasia Skorokhodenko](https://up.htmlacademy.ru/htmlcss/38/user/2261597).
-* Наставник: `Неизвестно`.
+* Наставник: [Ирина Антипина](https://htmlacademy.ru/profile/id2108789).
 
 ---
 
