@@ -8,7 +8,8 @@
 
   <body>
     <div class="background-wrapper">
-    <header>
+    <!-- Разметка навигации -->
+    <header class="header-all-elements">
       <nav class="nav-menu">
         <a class="sedona-logo" href="index.html">
           <img src="img/sedona-logo.svg" width="140" height="70" alt="Логотип Седоны.">
@@ -20,31 +21,38 @@
         </ul>
       </nav>
 
-      <div class="header-wrapper">
-        <a class="search visually-hidden" href="#">Поиск</a>
-        <a class="favourite visually-hidden" href="#">Избранное</a>
+      <div class="user-menu-wrapper">
+        <div class="nav-elements-img">
+          <a class="search visually-hidden" href="#">Поиск</a>
+          <a class="favourite visually-hidden" href="#">Избранное</a>
+        </div>
         <a class="button nav-button" href="#">ХОЧУ СЮДА!</a>
       </div>
     </header>
 
-    <main>
+    <main class="main-container">
       <h1 class="hero-banner visually-hidden">
         Добро пожаловать в восхитительную Седону!
         <img class="welcome-to-sedona" src="img/welcome-to-sedona.svg" width="458" height="352" alt="Добро пожаловать в Седону!">
       </h1>
 
+      <!-- Разметка текстового блока-1 -->
       <section class="sedona-description">
         <h2 class="big-heading">Седона — небольшой городок в Аризоне,<br>заслуживающий большего!</h2>
-        <p class="text-basic">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+        <p class="big-heading-description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
 
+      <!-- Разметка блока преимуществ -->
       <section class="advantages" id="advantages">
         <h2 class="visually-hidden">Преимущества посещения Седоны</h2>
         <ul class="advantages-list">
           <li class="advantage-item dark-blue">
             <h3 class="advantage-name white">Настоящий городок</h3>
             <p class="advantage-description white">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-            <img src="img/photo-of-sedona.jpg" width="800" height="384" alt="Фотография дома в Седоне.">
+          </li>
+
+          <li class="advantage-item-img">
+            <img src="img/photo-of-sedona.jpg" width="800" height="385" alt="Фотография дома в Седоне.">
           </li>
 
           <li class="advantage-item light-blue">
@@ -62,19 +70,27 @@
             <p class="advantage-description">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
 
+          <li class="advantage-item-img">
+            <img src="img/photo-of-devil-bridge.jpg" width="800" height="385" alt="Фото моста Дьявола.">
+          </li>
+
           <li class="advantage-item dark-blue">
-            <img src="img/photo-of-devil-bridge.jpg" width="800" height="384" alt="Фото моста Дьявола.">
             <h3 class="advantage-name white">Там есть мост Дьявола</h3>
             <p class="advantage-description white">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </li>
         </ul>
       </section>
 
+    <!-- Разметка текстового блока-2 -->
       <section class="rest-in-sedona">
-        <h2 class="big-heading">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
-        <p class="text-basic">Опытный персонал и качественное обслуживание!</p>
+        <div class="rest-in-sedona-wrapper">
+          <h2 class="big-heading">Приезжайте в Седону отдохнуть <br> в комфорте и уюте!</h2>
+          <p class="big-heading-description">Опытный персонал и качественное обслуживание!</p>
+        </div>
+
+    <!-- Разметка блока услуг -->
         <ul class="services-list">
-          <li class="service-item home blue">
+          <li class="service-item blue home">
             <h3 class="service-name">Жильё</h3>
             <p class="service-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
           </li>
@@ -82,22 +98,29 @@
             <h3 class="service-name">Еда</h3>
             <p class="service-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
           </li>
-          <li class="service-item souvenirs blue">
+          <li class="service-item blue souvenirs">
             <h3 class="service-name">Сувениры</h3>
             <p class="service-description">Не только китайского, но и настоящего местного производства!</p>
           </li>
         </ul>
       </section>
 
+    <!-- Разметка текстового блока-3 -->
       <section class="hotel-search">
-        <h2 class="big-heading">Заинтересовались?</h2>
-        <p class="text-basic">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <div class="hotel-search-wrapper">
+          <h2 class="big-heading">Заинтересовались?</h2>
+          <p class="big-heading-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        </div>
         <a class="button hotel-search-button" href="catalog.html">Поиск гостиницы в Седоне</a>
       </section>
 
+    <!-- Разметка рассылки -->
       <section class="newsletter newsletter-main">
-        <h3 class="big-heading">Подпишитесь на рассылку</h3>
-        <p class="text-basic">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <div class="newsletter-text">
+          <h3 class="big-heading">Подпишитесь на рассылку</h3>
+          <p class="big-heading-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        </div>
+        <div class="newsletter-form-wrapper">
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label class="visually-hidden">
             Поле ввода e-mail
@@ -105,10 +128,12 @@
           </label>
            <button class="button newsletter-button dark-blue" type="submit" name="newsletter-subscribe">Подписаться</button>
         </form>
+        </div>
       </section>
     </main>
 
-    <footer>
+    <!-- Разметка футера -->
+    <footer class="footer-container">
       <ul class="social-media-list">
         <li class="social-media-item">
           <a class="vkontakte visually-hidden" href="https://vk.com/htmlacademy">ВКонтакте</a>
